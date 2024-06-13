@@ -18,7 +18,7 @@ enable_testing()
 add_compile_options("--coverage")
 add_executable(
   cleancoder
-  //TradeProcessor.cpp
+  #TradeProcessor.cpp
   CSVtoXMLTradeConversion.cpp
   TradeProcessor.Tests.cpp
 )
